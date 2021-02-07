@@ -102,10 +102,6 @@ a {
     font-weight: 300;
 }
 
-.inner-form .input-field.second-wrap .btn-search:hover {
-    background: #e74c3c;
-}
-
 .inner-form .input-field.second-wrap .btn-search:focus {
     outline: 0;
     box-shadow: none;
