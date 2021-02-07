@@ -47,11 +47,6 @@ a {
     font-size: 16px;
 }
 
-/* .inner-form .input-field input::-webkit-input-placeholder {
-    color: #222;
-    font-size: 16px;
-} */
-
 .inner-form .input-field input:hover,
 .inner-form .input-field input:focus {
     box-shadow: none;
@@ -75,7 +70,6 @@ a {
 
 .inner-form .input-field.first-wrap .svg-wrapper {
     min-width: 80px;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
@@ -93,11 +87,6 @@ a {
     min-width: 130px;
 }
 
-@media screen and (max-width: 767px) {
-    .inner-form .input-field.second-wrap {
-        min-width: 100px;
-    }
-}
 .inner-form .input-field.second-wrap .btn-search {
     height: 100%;
     width: 100%;

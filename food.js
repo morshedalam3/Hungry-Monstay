@@ -20,7 +20,6 @@ const displayDetails = name => {
         .then(res => res.json())
         .then(data => {
             showFoodInfo(data.meals[0]);
-            console.log(data.meals[0]);
         });
 };
 
@@ -29,7 +28,6 @@ const showFoodInfo = food => {
     foodDetailsDiv.innerHTML = `
     <img class="img-fluid rounded mb-4" src="${food.strMealThumb}" alt="">
     <h4>${food.strMeal}</h4> 
-    <h5 class="pt-3 pb-2"><i class="icon-fire icons"></i> Ingredients</h5>
     <ul class="list-unStyled mb-0">
         <li><i class="icon-check icons"></i>${food.strMeasure1}, ${food.strIngredient1}</li>
         <li><i class="icon-check icons"></i>${food.strMeasure2}, ${food.strIngredient2}</li>
