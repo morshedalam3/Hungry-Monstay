@@ -32,6 +32,11 @@ const showFoodInfo = food => {
         <li><i class="icon-check icons"></i>${food.strMeasure2}, ${food.strIngredient2}</li>
         <li><i class="icon-check icons"></i>${food.strMeasure3}, ${food.strIngredient3}</li>
         <li><i class="icon-check icons"></i>${food.strMeasure4}, ${food.strIngredient4}</li>
+        <li><i class="icon-check icons"></i>${food.strMeasure5}, ${food.strIngredient5}</li>
+        <li><i class="icon-check icons"></i>${food.strMeasure6}, ${food.strIngredient6}</li>
+        <li><i class="icon-check icons"></i>${food.strMeasure7}, ${food.strIngredient7}</li>
+        <li><i class="icon-check icons"></i>${food.strMeasure8}, ${food.strIngredient8}</li>
+       
     </ul>
 `;
 };
