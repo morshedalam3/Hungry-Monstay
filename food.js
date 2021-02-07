@@ -1,16 +1,15 @@
-// 'use strict';
 const data_container = document.getElementById('foods');
 const searchBtn = document.getElementById('searchBar');
-const warning = document.getElementById('warning');
+const recommend = document.getElementById('recommend');
 
 searchBtn.addEventListener('click', function () {
     const searchWord = document.getElementById('search-word').value;
     data_container.innerHTML = '';
     if (searchWord === '') {
-        warning.style.display = 'block';
+        recommend.style.display = 'block';
     } else {
         getFood(searchWord);
-        warning.style.display = 'none';
+        recommend.style.display = 'none';
     }
 });
 
