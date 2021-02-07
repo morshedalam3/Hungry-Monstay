@@ -13,23 +13,6 @@ searchBtn.addEventListener('click', function () {
     }
 });
 
-
-
-// const data_container = document.getElementById('foods');
-// const searchBtn = document.getElementById('searchBar');
-// const recommend = document.getElementById('recommend');
-
-// searchBtn.addEventListener('click', function () {
-//     const searchWord = document.getElementById('search-word').value;
-//     data_container.innerHTML = '';
-//     if (searchWord === '') {
-//         recommend.style.display = 'block';
-//     } else {
-//         getFood(searchWord);
-//         recommend.style.display = 'none';
-//     }
-// });
-
 const displayDetails = name => {
     const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${name}`;
     fetch(url)
