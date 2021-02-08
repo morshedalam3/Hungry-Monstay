@@ -66,7 +66,7 @@ function getFood(mealId) {
                 foodsDiv.appendChild(foodDiv);
             });
         } else {
-            warning.style.display = 'block';
+            recommend.style.display = 'block';
         }
-    };
+    }
 }
